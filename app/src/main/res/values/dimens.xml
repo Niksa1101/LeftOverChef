@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dot_active">24dp</dimen>
+    <dimen name="dot_inactive">8dp</dimen>
+    <dimen name="card_stroke_width">1dp</dimen>
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Leftover Chef</string>
+    <string name="pantry">My Pantry</string>
+    <string name="find_recipes">Find Recipes</string>
+    <string name="saved_recipes">Saved Recipes</string>
+    <string name="add_ingredient">Add Ingredient</string>
+    <string name="search_ingredients">Search ingredients…</string>
+    <string name="search_recipes">Search recipes…</string>
+    <string name="no_ingredients">No ingredients yet!\nTap + to add some.</string>
+    <string name="no_saved_recipes">No saved recipes yet!</string>
+    <string name="no_results">No recipes found.\nTry adding more ingredients.</string>
+    <string name="calories">Calories</string>
+    <string name="protein">Protein</string>
+    <string name="carbs">Carbs</string>
+    <string name="fat">Fat</string>
+    <string name="save_recipe">Save Recipe</string>
+    <string name="unsave_recipe">Unsave Recipe</string>
+    <string name="ready_in">Ready in %d min</string>
+    <string name="servings">%d servings</string>
+    <string name="kcal_value">%d kcal</string>
+    <string name="macro_grams">%dg</string>
+
+    <!-- Cook Mode -->
+    <string name="step_counter">Step %1$d of %2$d</string>
+    <string name="no_instructions">No instructions available for this recipe.</string>
+    <string name="btn_finish">Finish ✓</string>
+    <string name="btn_next">Next →</string>
+    <string name="btn_timer_start">▶ Start</string>
+    <string name="btn_timer_pause">⏸ Pause</string>
+    <string name="deduct_dialog_title">Deduct ingredients from pantry?</string>
+    <string name="deduct_confirm">Yes, deduct</string>
+    <string name="deduct_skip">No, keep</string>
+    <string name="ingredients_more">…and %d more</string>
+
+    <!-- Calorie Log -->
+    <string name="calorie_progress">%1$,d / %2$,d kcal</string>
+    <string name="calories_remaining">%1$,d kcal remaining</string>
+    <string name="calories_over">%1$,d kcal over goal</string>
+    <string name="progress_percent">%d%%</string>
+    <string name="goal_updated">Goal updated to %1$,d kcal/day</string>
+
+    <!-- Recipe Detail -->
+    <string name="recipe_saved">✅ Saved</string>
+    <string name="recipe_save">🔖 Save Recipe</string>
+
+    <!-- MainActivity stats -->
+    <string name="hero_subtitle">You have %1$d ingredient%2$s ready</string>
+    <string name="pantry_count">%1$d item%2$s</string>
+    <string name="saved_count">%1$d recipe%2$s</string>
+    <string name="calorie_count_today">Today: %1$,d kcal logged</string>
+
+    <!-- Recipe Results -->
+    <string name="recipes_for_count">Recipes for %1$d ingredient%2$s</string>
+
+    <!-- Forgot / Reset Password -->
+    <string name="forgot_password_title">Forgot Password</string>
+    <string name="forgot_password_subtitle">We\'ll send a reset code to your email</string>
+    <string name="reset_password_title">Reset Password</string>
+    <string name="label_email_address">Email address</string>
+    <string name="label_reset_code">Reset code</string>
+    <string name="label_new_password">New password</string>
+    <string name="label_confirm_new_password">Confirm new password</string>
+    <string name="btn_send_code">Send Reset Code</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="sending">Sending…</string>
+    <string name="resetting">Resetting…</string>
+    <string name="reset_email_hint_sent">A reset code has been sent to %s</string>
+    <string name="reset_email_hint_screen">Enter the code shown below to reset your password</string>
+    <string name="reset_code_card">Your reset code\n%s</string>
+    <string name="remembered_password">Remembered your password? </string>
+    <string name="sign_in">Sign In</string>
+    <string name="back">Back</string>
+    <string name="password_reset_success">Password reset successfully. Please sign in.</string>
+    <string name="error_email_required">Please enter your email</string>
+    <string name="error_email_invalid">Please enter a valid email address</string>
+    <string name="error_email_not_found">No account found with that email</string>
+    <string name="error_code_required">Please enter the reset code</string>
+    <string name="error_code_invalid">Invalid reset code. Please try again.</string>
+    <string name="error_code_expired">This code has expired. Please request a new one.</string>
+    <string name="error_password_required">Please enter a new password</string>
+    <string name="error_password_length">Password must be at least 6 characters</string>
+    <string name="error_passwords_no_match">Passwords do not match</string>
+
+    <string-array name="ingredient_units">
+        <!-- Weight -->
+        <item>g</item>
+        <item>kg</item>
+        <item>oz</item>
+        <item>lb</item>
+        <!-- Volume -->
+        <item>ml</item>
+        <item>l</item>
+        <item>tsp</item>
+        <item>tbsp</item>
+        <item>cup</item>
+        <item>fl oz</item>
+        <!-- Count / other -->
+        <item>piece</item>
+        <item>slice</item>
+        <item>can</item>
+        <item>bunch</item>
+        <item>clove</item>
+        <item>serving</item>
+        <item>whole</item>
+    </string-array>
+
+    <string-array name="ingredient_categories">
+        <item>Other</item>
+        <item>Meat &amp; Fish</item>
+        <item>Vegetables</item>
+        <item>Fruits</item>
+        <item>Dairy</item>
+        <item>Grains &amp; Pasta</item>
+        <item>Spices &amp; Herbs</item>
+        <item>Condiments</item>
+        <item>Beverages</item>
+    </string-array>
+</resources>

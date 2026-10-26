@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Orange brand -->
+    <color name="primary">#E85D04</color>
+    <color name="primary_dark">#C44D00</color>
+    <color name="primary_light">#F4873A</color>
+
+    <!-- Green brand -->
+    <color name="green_primary">#1E6B3C</color>
+    <color name="green_dark">#185A30</color>
+    <color name="green_light">#2E9B58</color>
+
+    <!-- Backgrounds -->
+    <color name="background">#FFFDFB</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="input_bg">#F7F2ED</color>
+
+    <!-- Text -->
+    <color name="dark_text">#2D2320</color>
+    <color name="secondary_text">#70615C</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_background">#2D2320</color>
+    <color name="on_surface">#2D2320</color>
+
+    <!-- Badges -->
+    <color name="badge_green_bg">#D4EDDA</color>
+    <color name="badge_green_text">#1E6B3C</color>
+    <color name="badge_red_bg">#FDECEA</color>
+    <color name="badge_red_text">#E03D3D</color>
+
+    <!-- Misc -->
+    <color name="chip_background">#FFEDDF</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="error">#E03D3D</color>
+    <color name="success">#1E6B3C</color>
+    <color name="secondary">#2A9D8F</color>
+
+    <!-- Cook mode -->
+    <color name="cook_mode_bg">#1A1716</color>
+    <color name="cook_mode_surface">#252120</color>
+    <color name="cook_mode_text">#F5F0EE</color>
+</resources>

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/surface"
+    android:padding="24dp">
+
+    <!-- Handle -->
+    <View
+        android:id="@+id/vHandle"
+        android:layout_width="40dp"
+        android:layout_height="4dp"
+        android:background="@color/divider"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Filter Recipes"
+        android:textColor="@color/dark_text"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vHandle" />
+
+    <!-- Missing Ingredients label -->
+    <TextView
+        android:id="@+id/tvMissingLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="MAX MISSING INGREDIENTS"
+        android:textColor="@color/secondary_text"
+        android:textSize="11sp"
+        android:letterSpacing="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+    <!-- Missing chips -->
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGroupMissing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvMissingLabel"
+        app:singleSelection="true"
+        app:chipSpacingHorizontal="8dp">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipMissingAny"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Any"
+            android:textSize="13sp"
+            app:chipBackgroundColor="@color/input_bg"
+            app:chipStrokeWidth="0dp"
+            app:checkedIconVisible="false"
+            app:chipCornerRadius="100dp" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipMissing0"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="0"
+            android:textSize="13sp"
+            app:chipBackgroundColor="@color/input_bg"
+            app:chipStrokeWidth="0dp"
+            app:checkedIconVisible="false"
+            app:chipCornerRadius="100dp" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipMissing1"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="1"
+            android:textSize="13sp"
+            app:chipBackgroundColor="@color/input_bg"
+            app:chipStrokeWidth="0dp"
+            app:checkedIconVisible="false"
+            app:chipCornerRadius="100dp" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipMissing2"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="2"
+            android:textSize="13sp"
+            app:chipBackgroundColor="@color/input_bg"
+            app:chipStrokeWidth="0dp"
+            app:checkedIconVisible="false"
+            app:chipCornerRadius="100dp" />
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <!-- Prep Time label -->
+    <TextView
+        android:id="@+id/tvTimeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="MAX PREP TIME"
+        android:textColor="@color/secondary_text"
+        android:textSize="11sp"
+        android:letterSpacing="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chipGroupMissing" />
+
+    <!-- Time chips -->
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGroupTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvTimeLabel"
+        app:singleSelection="true"
+        app:chipSpacingHorizontal="8dp">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipTimeAny"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Any"
+            android:textSize="13sp"
+            app:chipBackgroundColor="@color/input_bg"
+            app:chipStrokeWidth="0dp"
+            app:checkedIconVisible="false"
+            app:chipCornerRadius="100dp" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipTime15"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="15 min"
+            android:textSize="13sp"
+            app:chipBackgroundColor="@color/input_bg"
+            app:chipStrokeWidth="0dp"
+            app:checkedIconVisible="false"
+            app:chipCornerRadius="100dp" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipTime30"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="30 min"
+            android:textSize="13sp"
+            app:chipBackgroundColor="@color/input_bg"
+            app:chipStrokeWidth="0dp"
+            app:checkedIconVisible="false"
+            app:chipCornerRadius="100dp" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipTime60"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="60 min"
+            android:textSize="13sp"
+            app:chipBackgroundColor="@color/input_bg"
+            app:chipStrokeWidth="0dp"
+            app:checkedIconVisible="false"
+            app:chipCornerRadius="100dp" />
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <!-- Calories label -->
+    <TextView
+        android:id="@+id/tvCalLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="MAX CALORIES"
+        android:textColor="@color/secondary_text"
+        android:textSize="11sp"
+        android:letterSpacing="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chipGroupTime" />
+
+    <!-- Calorie chips -->
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGroupCalories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvCalLabel"
+        app:singleSelection="true"
+        app:chipSpacingHorizontal="8dp">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipCalAny"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Any"
+            android:textSize="13sp"
+            app:chipBackgroundColor="@color/input_bg"
+            app:chipStrokeWidth="0dp"
+            app:checkedIconVisible="false"
+            app:chipCornerRadius="100dp" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipCal300"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="300 kcal"
+            android:textSize="13sp"
+            app:chipBackgroundColor="@color/input_bg"
+            app:chipStrokeWidth="0dp"
+            app:checkedIconVisible="false"
+            app:chipCornerRadius="100dp" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipCal500"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="500 kcal"
+            android:textSize="13sp"
+            app:chipBackgroundColor="@color/input_bg"
+            app:chipStrokeWidth="0dp"
+            app:checkedIconVisible="false"
+            app:chipCornerRadius="100dp" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipCal800"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="800 kcal"
+            android:textSize="13sp"
+            app:chipBackgroundColor="@color/input_bg"
+            app:chipStrokeWidth="0dp"
+            app:checkedIconVisible="false"
+            app:chipCornerRadius="100dp" />
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <!-- Reset button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnReset"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Reset"
+        android:textColor="@color/secondary_text"
+        app:layout_constraintEnd_toStartOf="@+id/btnApply"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chipGroupCalories" />
+
+    <!-- Apply button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnApply"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Apply Filters"
+        app:backgroundTint="@color/primary"
+        app:cornerRadius="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnReset"
+        app:layout_constraintTop_toBottomOf="@+id/chipGroupCalories" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Chef hat dome (puffy top) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,20 C41,20 32,29 32,41 C32,44 33,47 34,49 L74,49 C75,47 76,44 76,41 C76,29 67,20 54,20 Z" />
+
+    <!-- Hat puff detail left -->
+    <path
+        android:fillColor="#F0F0F0"
+        android:pathData="M38,35 C36,31 38,26 43,25 C40,28 39,32 41,36 Z" />
+
+    <!-- Hat puff detail right -->
+    <path
+        android:fillColor="#F0F0F0"
+        android:pathData="M70,35 C72,31 70,26 65,25 C68,28 69,32 67,36 Z" />
+
+    <!-- Chef hat band -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M29,49 L29,60 Q54,65 79,60 L79,49 Z" />
+
+    <!-- Band bottom accent -->
+    <path
+        android:fillColor="#EEEEEE"
+        android:pathData="M29,57 Q54,62 79,57 L79,60 Q54,65 29,60 Z" />
+
+    <!-- Face circle -->
+    <path
+        android:fillColor="#FDDBB0"
+        android:pathData="M54,62 m-13,0 a13,13 0 1,0 26,0 a13,13 0 1,0 -26,0" />
+
+    <!-- Eyes -->
+    <path
+        android:fillColor="#3E2000"
+        android:pathData="M49,59 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+    <path
+        android:fillColor="#3E2000"
+        android:pathData="M59,59 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+
+    <!-- Smile -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#3E2000"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:pathData="M49,65 Q54,70 59,65" />
+
+    <!-- Mustache -->
+    <path
+        android:fillColor="#3E2000"
+        android:pathData="M49,63 Q51,61 54,62 Q57,61 59,63 Q57,65 54,64 Q51,65 49,63 Z" />
+
+    <!-- Chef jacket body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,75 Q36,88 36,92 L72,92 Q72,88 70,75 Q64,72 54,72 Q44,72 38,75 Z" />
+
+    <!-- Jacket collar left -->
+    <path
+        android:fillColor="#DDDDDD"
+        android:pathData="M50,72 L46,80 L54,78 Z" />
+
+    <!-- Jacket collar right -->
+    <path
+        android:fillColor="#DDDDDD"
+        android:pathData="M58,72 L62,80 L54,78 Z" />
+
+    <!-- Jacket buttons -->
+    <path
+        android:fillColor="#CCCCCC"
+        android:pathData="M54,81 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+    <path
+        android:fillColor="#CCCCCC"
+        android:pathData="M54,87 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+
+    <!-- Wooden spoon (right side, raised) -->
+    <path
+        android:fillColor="#C8882A"
+        android:strokeColor="#A06820"
+        android:strokeWidth="1"
+        android:pathData="M72,44 L78,26" />
+    <path
+        android:fillColor="#C8882A"
+        android:pathData="M78,26 C76,22 82,20 84,24 C86,28 81,31 78,26 Z" />
+
+</vector>

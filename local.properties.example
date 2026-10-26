@@ -1,0 +1,6 @@
+# Android Studio creates sdk.dir for your local Android SDK.
+# Copy these entries into your ignored local.properties file.
+SPOONACULAR_API_KEY=
+# Optional: only required for the email password-reset demo.
+SENDGRID_API_KEY=
+SENDGRID_FROM_EMAIL=
